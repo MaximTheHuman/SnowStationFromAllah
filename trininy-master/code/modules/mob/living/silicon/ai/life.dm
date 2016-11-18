@@ -77,8 +77,8 @@
 
 			//stage = 6
 			src.blind.screen_loc = "1,1 to 15,15"
-			if (src.blind.alpha = 255)
-				src.blind.alpha = 255
+			if (src.blind.alpha! = 255)
+						src.blind.alpha = 255
 			src.sight = src.sight&~SEE_TURFS
 			src.sight = src.sight&~SEE_MOBS
 			src.sight = src.sight&~SEE_OBJS
